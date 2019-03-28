@@ -1,0 +1,57 @@
+import static java.lang.Thread.sleep;
+
+/**
+ *
+ * @author user11
+ */
+public class FourtySecondAssignment {
+    public static void main(String args[])
+    {
+        thr a=new thr();
+        me b=new me();
+        a.name=1;
+        b.name1=2;
+        a.start();
+        b.start();
+        
+    } 
+}
+class thr extends Thread
+{
+    public int name,i,p=0;
+    public void run()
+    {
+        for(i=1;i<=10;i=i+2)
+        {
+            System.out.println("Thread"+name+" : "+(p=p+i));
+            try
+            {
+                sleep(1000);
+            }
+            catch(Exception e)
+            {
+                System.out.println(" Some problem");
+            }
+        }
+    }
+}
+class me extends Thread
+{
+    public int name1,i1,p1=0;
+    public void run()
+    {
+        for(i1=2;i1<=10;i1=i1+2)
+        {
+            System.out.println("Thread"+name1+" : "+(p1=p1+i1));
+            try
+            {
+                sleep(1000);
+            }
+            catch(Exception e)
+            {
+                System.out.println(" Some problem");
+            }
+        }
+    }
+}
+    
