@@ -3,23 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+import java.io.*;
 package javaapplication20171014;
-
-import javax.swing.JOptionPane;
 
 /**
  *
  * @author user11
  */
-public class ThirteenthAssignment {
- 
+public class T49th {
     public static void main(String args[])
- {
-     int i=5;
-     while(i>0)
-     {
-         JOptionPane.showMessageDialog(null,+i);
-         i--;
-     }
- }
+            throws FileNotFoundException,IOException
+    {
+        FileInputStream f1=new FileInputStream(args[0]);
+        FileOutputStream f2=new FileOutputStream(args[1]);
+        
+    }
+    
 }

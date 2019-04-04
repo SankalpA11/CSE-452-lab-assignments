@@ -5,21 +5,14 @@
  */
 package javaapplication20171014;
 
-import javax.swing.JOptionPane;
-
 /**
  *
  * @author user11
  */
-public class ThirteenthAssignment {
- 
-    public static void main(String args[])
- {
-     int i=5;
-     while(i>0)
-     {
-         JOptionPane.showMessageDialog(null,+i);
-         i--;
-     }
- }
+public class T41th {
+    public static void main(String args[])throws InterruptedException
+    {
+      Thread.sleep(10000);
+      System.out.println("   H  E  L  L  O  ");
+    }  
 }

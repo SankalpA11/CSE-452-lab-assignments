@@ -1,17 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package javaapplication20171014;
-
 import javax.swing.JOptionPane;
-
-/**
- *
- * @author user11
- */
-public class NinethAssignment {
+public class Ninethprogram
+{
     public static void main(String args[])
     {
         int a=7;
@@ -21,5 +10,4 @@ public class NinethAssignment {
         JOptionPane.showMessageDialog(null,"right shift of a is "+b);
         JOptionPane.showMessageDialog(null," left shift of a is "+c );
     }
-    
 }

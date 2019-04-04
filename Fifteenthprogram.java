@@ -1,16 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package javaapplication20171014;
-
-/**
- *
- * @author user11
- */
-public class FifteenthAssignment {
-     public static void main(String args[])
+public class Fifteenthprogram 
+{
+  public static void main(String args[])
   {
       int i;
       for(i=0;i<5;i++)
@@ -31,9 +21,8 @@ public class FifteenthAssignment {
               case 4:
                   System.out.println("i is four.");
               default:
-                  System.out.println("i is greater than 4");
-                  break;
+                  System.out.println("i is greater than 4")
       }
   }
-    
 }
+

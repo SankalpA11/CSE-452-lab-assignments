@@ -5,21 +5,10 @@
  */
 package javaapplication20171014;
 
-import javax.swing.JOptionPane;
-
 /**
  *
  * @author user11
  */
-public class ThirteenthAssignment {
- 
-    public static void main(String args[])
- {
-     int i=5;
-     while(i>0)
-     {
-         JOptionPane.showMessageDialog(null,+i);
-         i--;
-     }
- }
+public class T48th {
+    
 }

@@ -5,26 +5,23 @@
  */
 package javaapplication20171014;
 
-import javax.swing.JOptionPane;
-
 /**
  *
  * @author user11
  */
-public class EleventhAssignment {
+public class T38th {
     public static void main(String args[])
     {
-        int n;
-        String a;
-       a= JOptionPane.showInputDialog("Enter a number= ");
-        n=Integer.parseInt(a);
-        if(n%2==0)
+        try{
+            int a=args.length;
+            int b=43/a;
+            System.out.println(" a   =  "+a);
+        }catch(ArrayIndexOutOfBoundsException e)
         {
-            System.out.println("Even number");
-        }
-        else
+            System.out.println("Array index out-of-bounds:"+e);
+        }catch(ArithmeticException e)
         {
-            System.out.println("Odd");
+            System.out.println("Divided by 0:"+e);
         }
     }
     

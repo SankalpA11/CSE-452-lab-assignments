@@ -5,21 +5,22 @@
  */
 package javaapplication20171014;
 
-import javax.swing.JOptionPane;
-
 /**
  *
  * @author user11
  */
-public class ThirteenthAssignment {
- 
+public class T27th {
     public static void main(String args[])
- {
-     int i=5;
-     while(i>0)
-     {
-         JOptionPane.showMessageDialog(null,+i);
-         i--;
-     }
- }
+    {
+        StaticDemo.callme();
+        System.out.println(" b = "+StaticDemo.b);
+    }  
+}
+class StaticDemo{
+    static int a=55;
+    static int b=66;
+    static void callme()
+    {
+        System.out.println("a = "+a);
+    }
 }

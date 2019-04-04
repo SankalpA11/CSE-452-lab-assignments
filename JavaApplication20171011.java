@@ -3,19 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication20171014;
+package javaapplication20171011;
 
 /**
  *
  * @author user11
  */
-public class FirstAssignment {
-     public static void main(String[] args) {
-             System.out.println("I love Java");
+public class JavaApplication20171011 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
         // TODO code application logic here
     }
-    
-
-    
     
 }
